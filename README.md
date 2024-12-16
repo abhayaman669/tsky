@@ -1,6 +1,6 @@
-# tskr
+# tsky
 
-**`tskr`** is a lightweight, CLI-based task management toolkit designed to help developers keep track of their tasks directly from the terminal. It provides an intuitive command-line interface to create, manage, and organize tasks without leaving the development environment.
+**`tsky`** is a lightweight, CLI-based task management toolkit designed to help developers keep track of their tasks directly from the terminal. It provides an intuitive command-line interface to create, manage, and organize tasks without leaving the development environment.
 
 ---
 
@@ -14,41 +14,41 @@
 
 ## Installation
 
-To install `tskr`, use pip:
+To install `tsky`, use pip:
 
 ```bash
-pip install tskr
+pip install tsky
 ```
 
 ---
 
 ## Usage
 
-Once installed, you can use the `tskr` command to manage tasks:
+Once installed, you can use the `tsky` command to manage tasks:
 
 ### Add a Task
 ```bash
-tskr add "Fix bug in authentication flow" --tag bugfix
+tsky add "Fix bug in authentication flow" --tag bugfix
 ```
 
 ### List All Tasks
 ```bash
-tskr list
+tsky list
 ```
 
 ### Search for Tasks
 ```bash
-tskr search "authentication"
+tsky search "authentication"
 ```
 
 ### Delete a Task
 ```bash
-tskr delete <task_id>
+tsky delete <task_id>
 ```
 
 For more commands, run:
 ```bash
-tskr --help
+tsky --help
 ```
 
 ---
